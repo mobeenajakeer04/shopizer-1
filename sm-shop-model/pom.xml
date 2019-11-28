@@ -49,12 +49,45 @@
 
 
 	<dependencies>
+
+	<!-- https://mvnrepository.com/artifact/com.shopizer/sm-core-model -->
+<dependency>
+    <groupId>com.shopizer</groupId>
+    <artifactId>sm-core-model</artifactId>
+    <version>2.7.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.shopizer/shopizer-shipping-distance-processor -->
+<dependency>
+    <groupId>com.shopizer</groupId>
+    <artifactId>shopizer-shipping-distance-processor</artifactId>
+    <version>2.8.0</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/com.shopizer/sm-core-model -->
+<dependency>
+    <groupId>com.shopizer</groupId>
+    <artifactId>sm-core-model</artifactId>
+    <version>2.8.0</version>
+</dependency>
+
+
 		<!-- sm-core-model -->
-		<dependency>
-			<groupId>com.shopizer</groupId>
-			<artifactId>sm-core-model</artifactId>
-			<version>${shopizer.version}</version>
-		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.shopizer/sm-core-modules -->
+<dependency>
+    <groupId>com.shopizer</groupId>
+    <artifactId>sm-core-modules</artifactId>
+    <version>2.7.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.shopizer/sm-core-modules -->
+<dependency>
+    <groupId>com.shopizer</groupId>
+    <artifactId>sm-core-modules</artifactId>
+    <version>2.8.0</version>
+</dependency>
+
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
